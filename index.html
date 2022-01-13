@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortodontia | Dr. André Luiz</title>
+
+    <!--MEU ESTILO-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--ICONES-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--JQUERY-->
+    <script  src="https://code.jquery.com/jquery-3.6.0.js"  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="oculto">
+        <div class="header_flex" >            
+            <div id="div_tels1" class="descer"><span> (21) 96497-9467 | (21) 2712-2609</span></div>
+           
+            <div id="div_tels2" class="descer"> 
+                <span style="color:blue; font-size: 13px; vertical-align: middle; padding-right: 5px;" class="material-icons">
+                location_on
+                </span><span>Trav. Rubens Falcão, nº 180 - Zé Garoto - São Gonçalo - RJ</span>
+            </div>
+            <div class="centraliza">
+                <img class="desce_header" src="imagens/mostrar_mais_baixo.png" alt="" onclick="desce_header()">
+            </div>
+            <div class="logo_andre" >            
+                <div>
+                  <img class="img_logo2" style="width: 360px;height: 150px;"  src="imagens/andre_logo_media.png" alt="">
+                </div>
+               
+               
+        </div>  
+        <div id = "slider">
+            <img  class = "selected" src="/imagens/banner_home_toda-a-familia_4.jpg" alt="img1">
+            <img src="/imagens/banner_home_invisalign_02.jpg" alt="img2">
+            <img src="/imagens/banner_home_invisalign_03.jpg" alt="img3">
+            <img src="/imagens/contato1.png" alt="img4">
+        </div>
+         
+    </header>
+    <div><p></p></div>
+    <div class="botaoabre">
+        <span class="material-icons">menu</span>
+    </div>
+    <nav class="menulateral">
+        <div class="titulo"><span class="material-icons botaofecha">
+            close
+            </span><span></div>
+        <ul class="nav-list">
+            <li><a href="#">Clínica</a></li>
+            <li><a href="#">Profissionais</a></li>           
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Localização</a></li>
+            <li><a href="#">Horários</a></li>
+            <li><a href="#" class="tratamentos">Tratamentos<span class="material-icons seta1">
+                arrow_drop_down</span></a></li>
+                <ul class="itensTratamentos">
+                    <li><a href="#" class="ortodontia">Ortodontia<span class="material-icons seta2">
+                        arrow_drop_down</span></a></li>
+                        <ul class = 'itensOrtodontia'>
+                            <li><a class = "menorainda" href="#">Preventiva</a></li>
+                            <li><a class = "menorainda" href="#">Interceptadora</a></li>
+                            <li><a class = "menorainda" href="#">Corretiva</a></li>
+                            <li><a class = "menorainda" href="#">Combinada com  Cirurgia Ortognática</a></li>
+                            <li><a class = "menorainda" href="#">Pré-protética</a></li>                                   
+                        </ul>
+                    <li><a href="#" class="aparelhos">Aparelhos Ortodônticos<span class="material-icons  seta3">
+                        arrow_drop_down</span></a></li>
+                        <ul class='itensAparelhos'>
+                            <li><a class = "menorainda" href="#">Removíveis</a></li>
+                            <li><a class = "menorainda" href="#">Funcionais</a></li>
+                            <li><a class = "menorainda" href="#">Mecânicos</a></li>
+                            <li><a class = "menorainda" href="#">Fixos</a></li>
+                            <li><a class = "menorainda" href="#">Fixos Auto Ligados</a></li>
+                            <li><a class = "menorainda" href="#">Estéticos</a></li>
+                            <li><a class = "menorainda" href="#">Linguais</a></li>
+                            <li><a class = "menorainda" href="#">Estéticos Sistema Invisalign®</a></li>                                   
+                        </ul>
+                </ul>
+        </ul>
+    </nav>
+
+    <div class="super">
+        <div class="principal">
+            <div class="um">
+                <div class="um_e_meio  img_mais_info">
+                    <span><img class="imagem_espaco" src="imagens/odonto_1.png" alt=""></span> 
+                    <span><p>Profissionais</p></span>  
+                </div> 
+                <p class="texto_subitem">Somos Cirurgiões-Dentistas, especializados em Ortodontia, Ortopedia Facial e Disfunção Têmporo-mandibular.</p>  
+                <button class="botao_info1">SAIBA MAIS</button>        
+            </div>
+            <div class="dois">
+                <div class="um_e_meio  img_mais_info">
+                    <span><img class="imagem_espaco" src="imagens/odonto4.png" alt=""></span> 
+                    <span><p>Clínica</p></span>  
+                </div> 
+                <p class="texto_subitem">Praça Zé Garoto, n° 1000, Sala 401,São gonçalo, RJ.</p>  
+                <button class="botao_info1">SAIBA MAIS</button>        
+            </div>
+            <div class="tres">
+                <div class="um_e_meio  img_mais_info">
+                    <span><img class="imagem_espaco" src="imagens/odonto3.png" alt=""></span> 
+                    <span><p>Contato</p></span>  
+                </div> 
+                <p class="texto_subitem">Entre em contato conosco</p>  
+                <button class="botao_info1">FALE CONOSCO</button>        
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="JS/script.js"></script>
+</body>
+</html>
